@@ -1,37 +1,41 @@
 baseURL = 'https://freedoms4.top/'
 languageCode = 'en-us'
 title = 'Freedoms4'
-theme= 'hugo-theme-yue'
+theme = 'hugo-theme-yue'
 
 [params]
-  customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css"]
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
 
 [menu]
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
-  
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
- 
- [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 4
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+category = "categories"
+tag = "tags"
