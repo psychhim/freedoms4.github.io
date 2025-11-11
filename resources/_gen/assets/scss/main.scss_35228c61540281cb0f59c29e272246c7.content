@@ -41,7 +41,7 @@ blockquote {
   --background-color1: #3c3836;
   --foreground-color: #ebdbb2;
   --foreground-color3: #bdae93;
-  --accent-color: #fe8019; }
+  --accent-color: #b0b0b0; }
 
 @media (prefers-color-scheme: light) {
   :root {
