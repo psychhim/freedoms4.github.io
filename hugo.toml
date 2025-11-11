@@ -2,6 +2,7 @@ baseURL = 'https://psychhim.github.io'
 languageCode = 'en-us'
 title = 'Freedoms4'
 theme = 'hugo-theme-yue'
+publishDir = "docs"
 
 [params]
 customCSS = ["css/custom.css"]
